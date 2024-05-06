@@ -15,4 +15,4 @@ jobs:
         username: asilva@ideasystems.com.mx
         password: ${{ secrets.ftp_password }}
         protocol: ftps
-        port: 22 # todo replace with your web hosts ftps port
+        port: 22
