@@ -12,5 +12,5 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
         server: ftp.ideasystems.com.mx
-        username: ideasystems
+        username: asilva@ideasystems.com.mx
         password: ${{ secrets.ftp_password }}
