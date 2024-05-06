@@ -11,6 +11,6 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
-        server: ftp.ideasystems.com
+        server: ftp.ideasystems.com.mx
         username: ideasystems
         password: ${{ secrets.ftp_password }}
