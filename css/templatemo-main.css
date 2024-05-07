@@ -181,7 +181,7 @@ a:hover { color: #FF0; }
 .baner-content {
   padding-top: 30vh;
   text-align: center;
-  background-image: url(../img/1.png);
+
   background-size: fit;
 }
 
@@ -219,7 +219,7 @@ a:hover { color: #FF0; }
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 15vh;
-  background-image: url(../img/1.png);
+
   background-attachment: fixed;
   min-height: 100vh;
   background-size: cover;
@@ -282,7 +282,7 @@ h4, .h4 {
 
 .projects-content {
   padding-top: 20vh;
-  background-image: url(../img/1.png);
+
 }
 
 .projects-content .item img {
@@ -336,7 +336,7 @@ h4, .h4 {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 8vh;
-  background-image: url(../img/1.png);
+
   background-attachment: fixed;
   min-height: 100vh;
   background-size: cover;
@@ -405,7 +405,7 @@ section {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 16vh;
-  background-image: url(../img/1.png);
+
 }
 
 .contact-form {
