@@ -21,9 +21,9 @@ body {
   font-size: 14px;
 }
 
-a { color: #3CC; }
+a { color: #000000; }
 
-a:hover { color: #FF0; }
+a:hover { color: #000000; text-decoration: underline; }
 
 /*----------
   NAV
@@ -141,6 +141,9 @@ a:hover { color: #FF0; }
           animation-name: fadeInRight;
 }
 
+.primary-button{
+    margin:10px;
+}
 
 .primary-button a {
   display: inline-block;
@@ -200,7 +203,7 @@ a:hover { color: #FF0; }
   font-weight: 600;
   font-style: normal;
 }
-video {
+video.back {
     position: fixed;
     right: 0;
     bottom: 0;

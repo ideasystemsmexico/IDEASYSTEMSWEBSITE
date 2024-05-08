@@ -31,19 +31,21 @@
 
 </head>
 <body>
-    <video id="video" loop autoplay preload muted>
-        <source src="videos/background.mp4" type="video/mp4" />
-    </video>
+<video class="back" id="video" loop autoplay preload muted>
+    <source src="videos/background.mp4" type="video/mp4"/>
+</video>
 <div class="fixed-side-navbar">
     <ul class="nav flex-column">
-        <li class="nav-item"><a class="nav-link" href="#inicio"><span>Intro</span></a></li>
-        <li class="nav-item"><a class="nav-link" href="#introduccion"><span>Introducción</span></a></li>
-        <li class="nav-item"><a class="nav-link" href="#mision"><span>Misión</span></a></li>
-        <li class="nav-item"><a class="nav-link" href="#vision"><span>Visión</span></a></li>
-        <li class="nav-item"><a class="nav-link" href="#valores"><span>Valores</span></a></li>
-        <li class="nav-item"><a class="nav-link" href="#experiencia"><span>Experiencia</span></a></li>
-        <li class="nav-item"><a class="nav-link" href="#servicios"><span>Servicios</span></a></li>
-        <li class="nav-item"><a class="nav-link" href="#contacto"><span>Contacto</span></a></li>
+        <li class="nav-item"><a class="nav-link" href="#inicio"><span>INICIO</span></a></li>
+        <li class="nav-item"><a class="nav-link" href="#introduccion"><span>¿QUIÉNES SOMOS?</span></a></li>
+        <li class="nav-item"><a class="nav-link" href="#mision"><span>MISIÓN</span></a></li>
+        <li class="nav-item"><a class="nav-link" href="#vision"><span>VISIÓN</span></a></li>
+        <li class="nav-item"><a class="nav-link" href="#valores"><span>VALORES</span></a></li>
+        <li class="nav-item"><a class="nav-link" href="productos"><span>PRODUCTOS</span></a></li>
+        <li class="nav-item"><a class="nav-link" href="#experiencia"><span>EXPERIENCIA</span></a></li>
+        <li class="nav-item"><a class="nav-link" href="#equipo"><span>EQUIPO</span></a></li>
+        <li class="nav-item"><a class="nav-link" href="#servicios"><span>SERVICIOS</span></a></li>
+        <li class="nav-item"><a class="nav-link" href="#contacto"><span>CONTACTO</span></a></li>
     </ul>
 </div>
 
@@ -52,7 +54,7 @@
         <div class="first-content">
             <img src="img/logotipo.png">
             <div class="primary-button">
-                <a href="#introduccion">Introducción</a>
+                <a href="#introduccion">¿QUIÉNES SOMOS?</a>
             </div>
         </div>
     </div>
@@ -61,17 +63,25 @@
 
 <div class="service-content" id="introduccion">
     <div class="container">
-        <div class="row titulo"><h1>INTRODUCCIÓN</h1></div>
+        <div class="row titulo"><h1>¿QUIÉNES SOMOS?</h1></div>
+        <div class="row" style="height: 100px;"></div>
         <div class="row">
-            Bienvenidos a IDEASYSTEMS, líderes en el desarrollo de soluciones tecnológicas de vanguardia. Con más de dos
-            décadas de experiencia, nos enorgullece ser una empresa mexicana con raíces en la vibrante ciudad de México.
-            Desde nuestra fundación, nos hemos dedicado a impulsar la innovación y afrontar los desafíos tecnológicos
-            más exigentes con pasión y dedicación.
+            <div class="col-md-6">
+                <video src="videos/bienvenida.mp4" controls width="100%" height="300px;"></video>
+            </div>
+            <div class="col-md-6 text-justify">Bienvenidos a IDEASYSTEMS, somos una firma preeminente en el desarrollo e
+                implementación de soluciones tecnológicas avanzadas. Con más de veinte años de trayectoria, es nuestro
+                orgullo ser una entidad fundada y radicada en la dinámica y culturalmente rica Ciudad de México. Desde
+                nuestro inicio, nos hemos comprometido fervientemente con la promoción de la innovación y el manejo
+                eficaz de los desafíos tecnológicos contemporáneos, abordándolos con una mezcla única de pasión,
+                precisión y profesionalismo.
+            </div>
         </div>
+        <div class="row" style="height: 100px;"></div>
         <div class="row">
             <div class="span6" style="float: none; margin: 0 auto;">
                 <div class="primary-button">
-                    <a href="#mision">Misión</a>
+                    <a href="#mision">MISIÓN</a>
                 </div>
             </div>
         </div>
@@ -82,15 +92,25 @@
 <div class="parallax-content projects-content" id="mision">
     <div class="container">
         <div class="row titulo"><h1>MISIÓN</h1></div>
-        <div class="row">En IDEASYSTEMS, nuestra misión es simple pero poderosa: proporcionar soluciones tecnológicas de
-            alto nivel que transformen la manera en que las empresas operan y se conectan con el mundo. Nos esforzamos
-            por ofrecer productos y servicios que no solo satisfagan las necesidades presentes de nuestros clientes,
-            sino que también los preparen para el futuro digital que se avecina.
+        <div class="row" style="height: 100px;"></div>
+        <div class="row">
+            <div class="col-md-6">
+                <video src="videos/mensajceosespañol.mp4" controls width="100%" height="300px;"></video>
+            </div>
+            <div class="col-md-6 text-justify">
+                En IDEASYSTEMS, nos guía una misión clara y trascendental: dotar a las organizaciones de soluciones
+                tecnológicas avanzadas que catalicen una transformación en sus operaciones y en su conexión con el
+                entorno global. Nuestro compromiso es ir más allá de satisfacer las necesidades actuales de nuestros
+                clientes; nos enfocamos en equiparlos para el futuro digital, anticipando las tendencias y preparándolos
+                para los cambios venideros con productos y servicios de vanguardia que definan el estándar de excelencia
+                en la industria.
+            </div>
         </div>
+        <div class="row" style="height: 100px;"></div>
         <div class="row">
             <div class="span6" style="float: none; margin: 0 auto;">
                 <div class="primary-button">
-                    <a href="#vision">Visión</a>
+                    <a href="#vision">VISIÓN</a>
                 </div>
             </div>
         </div>
@@ -100,94 +120,69 @@
 <div class="tabs-content" id="vision">
     <div class="container">
         <div class="row titulo"><h1>NUESTRA VISIÓN</h1></div>
-        <div class="row">Nos visualizamos como líderes indiscutibles en la innovación tecnológica, siendo reconocidos a
-            nivel nacional e internacional por nuestra capacidad para anticipar y resolver los desafíos más complejos
-            del mundo digital. Queremos ser la piedra angular en la transformación tecnológica de las empresas,
-            permitiéndoles alcanzar nuevas alturas de eficiencia, productividad y éxito.
-        </div>
+        <div class="row" style="height: 100px;"></div>
         <div class="row">
+            <div class="col-md-6">
+                <video src="videos/bienvenida.mp4" controls width="100%" height="300px;"></video>
+            </div>
+            <div class="col-md-6 text-justify">Nos proyectamos como líderes innegables en el ámbito de la innovación
+                tecnológica, obteniendo reconocimiento tanto a nivel nacional como internacional gracias a nuestra
+                habilidad para prever y solventar los retos más exigentes del entorno digital. Nuestro propósito es
+                erigirnos como la base fundamental en la evolución tecnológica empresarial, facilitando su progreso
+                hacia niveles inéditos de eficacia, productividad y logro.
+
+            </div>
         </div>
+        <div class="row" style="height: 100px;"></div>
         <div class="row">
             <div class="span6" style="float: none; margin: 0 auto;">
                 <div class="primary-button">
-                    <a href="#valores">Valores</a>
+                    <a href="#valores">VALORES</a>
                 </div>
             </div>
         </div>
-
     </div>
 </div>
-</div>
-
 
 <div class="tabs-content" id="valores">
     <div class="container">
         <div class="row titulo"><h1>VALORES</h1></div>
+        <div class="row" style="height: 100px;"></div>
         <div class="row">
-            <ul>
-                <li>
-                    <strong>Innovación Constante:</strong> Creemos en la importancia de la innovación continua para
-                    mantenernos a la
-                    vanguardia en un mundo tecnológico en constante evolución.
-                </li>
-                <li><strong>Calidad Excepcional:</strong> Nos comprometemos a ofrecer soluciones de la más alta calidad,
-                    respaldadas por
-                    rigurosos estándares de excelencia.
-                </li>
-                <li><strong>Colaboración y Compromiso:</strong> Valoramos las relaciones sólidas y duraderas con
-                    nuestros clientes, basadas en la
-                    colaboración, la transparencia y el compromiso mutuo.
-                </li>
-                <li><strong>LPasión por el Éxito:</strong> Nos apasiona el éxito de nuestros clientes y nos esforzamos
-                    por superar sus
-                    expectativas en cada proyecto que emprendemos.
-                </li>
-            </ul>
+            <div class="col-md-6">
+                <video src="videos/ciberseguridad.mp4" controls width="100%" height="300px;"></video>
+            </div>
+            <div class="col-md-6 text-justify">
+                <p><strong>Innovación Constante:</strong> Dentro de nuestra filosofía empresarial,
+                reconocemos la importancia de la innovación constante para mantenernos a la vanguardia en un entorno
+                tecnológico en continuo cambio.</p>
+
+                <p><strong>Calidad Excepcional:</strong> Nuestro compromiso se enfoca en ofrecer soluciones que se distinguen por su
+                excelencia, respaldadas por estrictos estándares de calidad.</p>
+
+                <p><strong>Colaboración y Compromiso:</strong> Valoramos las relaciones sólidas y duraderas con nuestros clientes, basadas
+                en la colaboración, la transparencia y un compromiso mutuo.</p>
+
+                <p><strong>Pasión por el Éxito:</strong> Nos impulsa la pasión por el éxito de nuestros clientes y nos esforzamos por
+                superar sus expectativas en cada proyecto que emprendemos.</p>
+
+            </div>
         </div>
+        <div class="row" style="height: 100px;"></div>
         <div class="row">
             <div class="span6" style="float: none; margin: 0 auto;">
                 <div class="primary-button">
-                    <a href="#experiencia">Experiencia</a>
+                    <a href="#servicios">SERVICIOS</a>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
-
-<div class="tabs-content" id="experiencia">
-    <div class="container">
-        <div class="row titulo"><h1>EXPERIENCIA</h1></div>
-        <div class="row">
-
-            <p>Nos visualizamos como líderes indiscutibles en la innovación tecnológica, siendo reconocidos a
-                nivel nacional e internacional por nuestra capacidad para anticipar y resolver los desafíos más
-                complejos
-                del mundo digital.</p>
-
-            <p>Queremos ser la piedra angular en la transformación tecnológica de las empresas,
-                permitiéndoles alcanzar nuevas alturas de eficiencia, productividad y éxito.Con más de 20 años de
-                trayectoria en el sector tecnológico, IDEASYSTEMS ha acumulado un amplio y profundo conocimiento en una
-                variedad de áreas, incluyendo desarrollo de software, análisis de datos, inteligencia artificial,
-                ciberseguridad y mucho más. Nuestro equipo de expertos altamente calificados está capacitado para
-                abordar
-                los desafíos más complejos y encontrar soluciones innovadoras que impulsen el éxito de nuestros
-                clientes.</p>
-        </div>
-        <div class="row">
-            <div class="span6" style="float: none; margin: 0 auto;">
-                <div class="primary-button">
-                    <a href="#servicios">Servicios</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
 
 <div class="tabs-content" id="servicios">
     <div class="container">
         <div class="row titulo"><h1>SERVICIOS</h1></div>
+        <div class="row" style="height: 100px;"></div>
         <div class="row">
             <div class="col-md-4">
                 <ul>
@@ -229,10 +224,81 @@
                 </ul>
             </div>
         </div>
+        <div class="row" style="height: 100px;"></div>
         <div class="row">
             <div class="span6" style="float: none; margin: 0 auto;">
                 <div class="primary-button">
-                    <a href="#contacto">Contactar un Ejecutivo</a>
+                    <a href="#productos">PRODUCTOS</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="tabs-content" id="productos">
+    <div class="container">
+        <div class="row titulo"><h1>PRODUCTOS</h1></div>
+        <div class="row" style="height: 100px;"></div>
+        <div class="row">
+            <div class="col-md-12">
+                <video src="videos/soluciones.mp4" controls width="100%" height="300px;"></video>
+            </div>
+        </div>
+        <div class="row" style="height: 100px;"></div>
+        <div class="row">
+            <div class="span6" style="float: none; margin: 0 auto;">
+                <div class="primary-button">
+                    <a href="#experiencia">Experiencia</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="tabs-content" id="experiencia">
+    <div class="container">
+        <div class="row titulo"><h1>EXPERIENCIA</h1></div>
+        <div class="row" style="height: 100px;"></div>
+        <div class="row">
+            <div class="col-md-6">
+                <video src="videos/implementaciones.mp4" controls width="100%" height="300px;"></video>
+            </div>
+            <div class="col-md-6 text-justify">
+                Bienvenidos a IDEASYSTEMS, líderes en el desarrollo de soluciones tecnológicas de vanguardia. Con más de
+                dos
+                décadas de experiencia, nos enorgullece ser una empresa mexicana con raíces en la vibrante ciudad de
+                México.
+                Desde nuestra fundación, nos hemos dedicado a impulsar la innovación y afrontar los desafíos
+                tecnológicos
+                más exigentes con pasión y dedicación.
+            </div>
+        </div>
+        <div class="row" style="height: 100px;"></div>
+        <div class="row">
+            <div class="span6" style="float: none; margin: 0 auto;">
+                <div class="primary-button">
+                    <a href="#equipo">EQUIPO</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="tabs-content" id="equipo">
+    <div class="container">
+        <div class="row titulo"><h1>EQUIPO</h1></div>
+        <div class="row" style="height: 100px;"></div>
+        <div class="row">
+            <div class="col-md-12">
+                <video src="videos/bienvenida.mp4" controls width="100%" height="300px;"></video>
+            </div>
+        </div>
+        <div class="row" style="height: 100px;"></div>
+        <div class="row">
+            <div class="span6" style="float: none; margin: 0 auto;">
+                <div class="primary-button">
+                    <a href="#contacto">CONTACTAR A UN EJECUTIVO</a>
                 </div>
             </div>
         </div>
@@ -242,19 +308,57 @@
 
 <div class="parallax-content contact-content" id="contacto">
     <div class="container">
-        <div class="row titulo"><h1>CONTACTAR UN EJECUTIVO</h1></div>
+        <div class="row titulo"><h1>CONTACTAR A UN EJECUTIVO</h1></div>
+        <div class="row" style="height: 100px;"></div>
         <div class="row">
             <div class="col-md-6">
-                <p><strong>OFICINAS CDMX:</strong> <a href=tel:+525518890953">+52 55 1889 0953</a></p>
-                <p><strong>OFICINAS Veracruz:</strong> <a href=tel:+522293875704">+52 229 387 5704</a></p>
-                <p><strong>WHATSAPP CDMX:</strong> <a href="https://wa.me/525518890953?text=Hola%20me%20%20gustaría%20saber%20más%de%20sus%20servicios" target="_blank">+52 272 176 5144</a></p>
-                <p><strong>WHATSAPP VERACRUZ:</strong> <a href="https://wa.me/522721765144?text=Hola%20me%20%20gustaría%20saber%20más%de%20sus%20servicios" target="_blank">+52 272 176 5144</a></p>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d441.374100936795!2d-99.26293502316936!3d19.393041386010033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1711213444171!5m2!1ses-419!2smx"
+                            width="100%" height="390" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
+            <div class="col-md-3 text-justify">
+                <p><strong>OFICINAS CDMX:</strong></p>
+                <p><strong>WHATSAPP CDMX:</strong></p>
+                <p><strong>VENTAS:</strong>
+                <p><strong>COMPRAS:</strong>
+                <p><strong>SOPORTE:</strong>
+            </div>
+            <div class="col-md-3 text-justify">
+                <p><a href=tel:+525518890953">+52 55 1889 0953</a></p>
+                <p><a href="https://wa.me/525518890953?text=Hola%20me%20%20gustaría%20saber%20más%de%20sus%20servicios"
+                      target="_blank">+52 272 176 5144</a></p>
+                <p>EXT: 107</p>
+                <p>EXT: 108</p>
+                <p>EXT: 109</p>
+            </div>
+        </div>
+        <div class="row">
             <div class="col-md-6">
-                <p><strong>VENTAS:</strong> EXT: 107</p>
-                <p><strong>COMPRAS:</strong> EXT: 108</p>
-                <p><strong>SOPORTE:</strong> EXT: 109</p>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d441.374100936795!2d-99.26293502316936!3d19.393041386010033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1711213444171!5m2!1ses-419!2smx"
+                            width="100%" height="390" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
+            <div class="col-md-3 text-justify">
+                <p><strong>OFICINAS VERACRUZ:</strong></p>
+                <p><strong>WHATSAPP VERACRUZ:</strong></p>
+                <p><strong>VENTAS:</strong>
+                <p><strong>COMPRAS:</strong>
+                <p><strong>SOPORTE:</strong>
+            </div>
+            <div class="col-md-3 text-justify">
+                <p><a href=tel:+522293875707">+52 2293875704</a></p>
+                <P><a href="https://wa.me/522721765144?text=Hola%20me%20%20gustaría%20saber%20más%de%20sus%20servicios"
+                      target="_blank">+52 272 176 5144</a></p>
+                <p>EXT: 107</p>
+                <p>EXT: 108</p>
+                <p>EXT: 109</p>
+            </div>
+        </div>
+        <div class="row">
             <div class="col-md-6">
                 <div class="contact-form">
                     <div class="row">
@@ -267,45 +371,7 @@
                         <!-- Final del widget integrado de Calendly -->
                     </div>
                 </div>
-            </div>
-            <div class="col-md-6">
-                <div class="map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d441.374100936795!2d-99.26293502316936!3d19.393041386010033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1711213444171!5m2!1ses-419!2smx"
-                            width="100%" height="390" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="span6" style="float: none; margin: 0 auto;">
-                            <div class="primary-button">
-                                <a href=tel:+522293875704">LLAMAR A OFICINAS CDMX</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="span6" style="float: none; margin: 0 auto;">
-                            <div class="primary-button">
-                                <a href=tel:+525518890953">LLAMAR A OFICINAS CDMX</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="span6" style="float: none; margin: 0 auto;">
-                            <div class="primary-button">
-                                <a href="https://wa.me/525518890953?text=Hola%20me%20%20gustaría%20saber%20más%de%20sus%20servicios" target="_blank">LLAMAR WHATSAPP</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="span6" style="float: none; margin: 0 auto;">
-                            <div class="primary-button">
-                                <a href="https://call.whatsapp.com/video/u4nZhmDBNQyhQ2tM5WM8x2">VIDEOLLAMADA
-                                    WHATSAPP</a>
-                            </div>
-                        </div>
-                    </div>
-
-
+                <div class="col-md-6">
                 </div>
             </div>
         </div>
@@ -321,7 +387,8 @@
                 </div>
                 <ul>
                     <li><a href="https://www.facebook.com/ideasystemsmexico"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="https://www.linkedin.com/company/ideasystemsmexico"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://www.linkedin.com/company/ideasystemsmexico"><i class="fa fa-linkedin"></i></a>
+                    </li>
                     <li><a href="https://www.instagram.com/ideasystemsmexico"><i class="fa fa-instagram"></i></a></li>
                 </ul>
                 <p>Copyright &copy; 2024 IDEASYSTEMS
@@ -329,7 +396,8 @@
         </div>
     </div>
 
-    <a href="https://wa.me/522721765144?text=Hola%20me%20%20gustaría%20saber%20más%de%20sus%20servicios" class="whatsapp" target="_blank"> <i
+    <a href="https://wa.me/522721765144?text=Hola%20me%20%20gustaría%20saber%20más%de%20sus%20servicios"
+       class="whatsapp" target="_blank"> <i
             class="fa fa-whatsapp whatsapp-icon"></i></a>
 </footer>
 
