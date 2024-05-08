@@ -203,7 +203,7 @@ a:hover { color: #000000; text-decoration: underline; }
   font-weight: 600;
   font-style: normal;
 }
-video.back {
+#video {
     position: fixed;
     right: 0;
     bottom: 0;
