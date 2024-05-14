@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DeveloperToolsToolWindowSettingsV1" lastSelectedContentNodeId="base64-encoder-decoder">
-    <developerToolsConfigurations />
+    <developerToolsConfigurations>
+      <developerToolConfiguration developerToolId="base64-encoder-decoder" id="39df71da-2456-4813-9782-c6eddb9f9670" name="Workbench">
+        <properties>
+          <property key="sourceText" type="INPUT" value="kotlin.String|hola" />
+          <property key="targetText" type="INPUT" value="kotlin.String|aG9sYQ==" />
+        </properties>
+      </developerToolConfiguration>
+    </developerToolsConfigurations>
+    <expandedGroupNodeIds />
   </component>
 </project>
