@@ -5,6 +5,12 @@ Vanilla Template
 https://templatemo.com/tm-526-vanilla
 
 */
+@font-face {
+  font-family: "Montserrat";
+  src:
+    local("Montserrat"),
+    url("fonts/Montserrat-ExtraBold-Alt1.otf") format("opentype"),
+}
 
 p {
   font-size: 15px;
@@ -758,6 +764,7 @@ footer em {
   font-style: normal;
 }
  h1{
+    font-family: "Montserrat";
       font-size: 80px;
       font-weight: bold;
   }
@@ -769,12 +776,14 @@ footer em {
   }
 
   h1{
+      font-family: "Montserrat";
       font-size: 70px;
       font-weight: bold;
   }
 
   .baner-content h1 {
     font-size: 64px;
+    font-family: "Montserrat";
   }
 
   .baner-content em {
